@@ -2,7 +2,7 @@ CC =
 CFLAGS = 
 
 SRC = $(shell find src/* -name *.c -type f)
-HTML = index.html
+HTML = index.js
 
 all: $(HTML)
 
